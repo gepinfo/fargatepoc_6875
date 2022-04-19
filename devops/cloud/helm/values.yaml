@@ -57,26 +57,26 @@ service:
   studentdetails: 
     name: studentdetails
     type: NodePort
-    port: 8018
-    targetPort: 8018
+    port: 8022
+    targetPort: 8022
 
   collegedetails: 
     name: collegedetails
     type: NodePort
-    port: 8019
-    targetPort: 8019
+    port: 8023
+    targetPort: 8023
 
   studentall: 
     name: studentall
     type: NodePort
-    port: 8020
-    targetPort: 8020
+    port: 8024
+    targetPort: 8024
 
   collegegetall: 
     name: collegegetall
     type: NodePort
-    port: 8021
-    targetPort: 8021
+    port: 8025
+    targetPort: 8025
 
 
 deployment:

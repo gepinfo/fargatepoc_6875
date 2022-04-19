@@ -114,10 +114,10 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/fargatepoc_6875?authSource=admin"},{"name":"CAMUNDAPOD_URL","value":"http://127.0.0.1:8080"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"CAMUNDAURL","value":"http://127.0.0.1:8002"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"}
-            ,{"name":"STUDENTDETAILSURL","value":"http://127.0.0.1:8018"}
-            ,{"name":"COLLEGEDETAILSURL","value":"http://127.0.0.1:8019"}
-            ,{"name":"STUDENTALLURL","value":"http://127.0.0.1:8020"}
-            ,{"name":"COLLEGEGETALLURL","value":"http://127.0.0.1:8021"}
+            ,{"name":"STUDENTDETAILSURL","value":"http://127.0.0.1:8022"}
+            ,{"name":"COLLEGEDETAILSURL","value":"http://127.0.0.1:8023"}
+            ,{"name":"STUDENTALLURL","value":"http://127.0.0.1:8024"}
+            ,{"name":"COLLEGEGETALLURL","value":"http://127.0.0.1:8025"}
             ],
             "secrets": null,
             "mountPoints": [
@@ -418,9 +418,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8018",
+                    "containerPort": "8022",
                     "protocol": "tcp",
-                    "hostPort": "8018"
+                    "hostPort": "8022"
                 }
             ],
             "environmentFiles": null,
@@ -462,9 +462,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8019",
+                    "containerPort": "8023",
                     "protocol": "tcp",
-                    "hostPort": "8019"
+                    "hostPort": "8023"
                 }
             ],
             "environmentFiles": null,
@@ -506,9 +506,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8020",
+                    "containerPort": "8024",
                     "protocol": "tcp",
-                    "hostPort": "8020"
+                    "hostPort": "8024"
                 }
             ],
             "environmentFiles": null,
@@ -550,9 +550,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8021",
+                    "containerPort": "8025",
                     "protocol": "tcp",
-                    "hostPort": "8021"
+                    "hostPort": "8025"
                 }
             ],
             "environmentFiles": null,

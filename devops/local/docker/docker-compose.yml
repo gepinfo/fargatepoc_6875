@@ -238,7 +238,7 @@ services:
     image: studentdetails-6875
     container_name: studentdetails-6875
     ports: 
-      - 8018:8018
+      - 8022:8022
     env_file: .env
     depends_on:
       - mongo
@@ -254,7 +254,7 @@ services:
     image: collegedetails-6875
     container_name: collegedetails-6875
     ports: 
-      - 8019:8019
+      - 8023:8023
     env_file: .env
     depends_on:
       - mongo
@@ -270,7 +270,7 @@ services:
     image: studentall-6875
     container_name: studentall-6875
     ports: 
-      - 8020:8020
+      - 8024:8024
     env_file: .env
     depends_on:
       - mongo
@@ -286,7 +286,7 @@ services:
     image: collegegetall-6875
     container_name: collegegetall-6875
     ports: 
-      - 8021:8021
+      - 8025:8025
     env_file: .env
     depends_on:
       - mongo
